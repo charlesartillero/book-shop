@@ -10,6 +10,8 @@
         "laravel/framework": "^10.0",
         "laravel/sanctum": "^3.2",
         "laravel/tinker": "^2.8",
+        "mongodb/laravel-mongodb": "^4.7",
+        "mongodb/mongodb": "^1.19",
         "opensearch-project/opensearch-php": "^2.3"
     },
     "require-dev": {
