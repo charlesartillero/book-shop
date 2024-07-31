@@ -93,6 +93,12 @@ return [
             // 'trust_server_certificate' => env('DB_TRUST_SERVER_CERTIFICATE', 'false'),
         ],
 
+        'mongodb' => [
+            'driver' => 'mongodb',
+            'dsn' => env('MONGO_URL'),
+            'database' => 'book_shop_db',
+        ],
+
     ],
 
     /*

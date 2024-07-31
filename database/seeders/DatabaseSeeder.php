@@ -3,6 +3,8 @@
 namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use App\Models\BookMDB;
+use Database\Factories\BookMongoFactory;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -20,6 +22,8 @@ class DatabaseSeeder extends Seeder
         // ]);
 
         \App\Models\Book::factory(500)->create();
+
+        BookMDB::factory(1000)->create();
 
     }
 }
