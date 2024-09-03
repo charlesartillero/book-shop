@@ -16,4 +16,5 @@ Route::get('health', [MonitorController::class, 'index']);
 
 Route::get('test', function() {
     dd("test");
+    dd("test2");
 });
