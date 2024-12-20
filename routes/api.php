@@ -10,5 +10,7 @@ Route::apiResource('books', BookController::class);
 
 Route::apiResource('mdb-books', BookMDBController::class);
 
+Route::apiResource('test', BookController::class);
+
 
 Route::get('health', [MonitorController::class, 'index']);
